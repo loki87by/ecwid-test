@@ -1,0 +1,15 @@
+.slider__button {
+  position: absolute;
+  top: 220px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+  .slider__button {
+    top: calc(100vw / 5.45);
+  }
+}

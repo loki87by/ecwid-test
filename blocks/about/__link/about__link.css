@@ -1,0 +1,14 @@
+.about__link {
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #497952;
+}
+
+@media (max-width: 750px) {
+  .about__link {
+    margin-top: -25px;
+  }
+}

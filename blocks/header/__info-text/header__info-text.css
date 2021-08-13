@@ -1,0 +1,35 @@
+.header__info-text {
+  margin-left: 17px;
+  font-family: "Bw Modelica Cyrillic DEMO", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #535353;
+}
+
+@media (max-width: 888px) {
+  .header__info-text {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__info-text {
+    white-space: pre;
+    text-align: end;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 710px) {
+  .header__info-text {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 555px) {
+  .header__info-text {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,10 @@
+.menu__navigation {
+  width: 796px;
+  margin: auto;
+}
+
+@media (max-width: 888px) {
+  .menu__navigation {
+    width: 95vw;
+  }
+}

@@ -1,0 +1,27 @@
+.menu__item {
+  font-family: "Bw Modelica Cyrillic DEMO", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fafffa;
+  text-decoration: none;
+}
+
+@media (max-width: 888px) {
+  .menu__item {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 710px) {
+  .menu__item {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu__item {
+    font-size: 8px;
+  }
+}

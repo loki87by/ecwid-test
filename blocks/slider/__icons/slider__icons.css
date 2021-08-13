@@ -1,0 +1,19 @@
+.slider__icons {
+  position: absolute;
+  top: 400px;
+  left: 515px;
+  width: 170px;
+}
+
+@media (max-width: 1199px) {
+  .slider__icons {
+    top: calc(100vw / 3);
+    left: calc(50% - 85px);
+  }
+}
+
+@media (max-width: 999px) {
+  .slider__icons {
+    top: calc(100vw / 3 - 15px);
+  }
+}
