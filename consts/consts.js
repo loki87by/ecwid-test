@@ -1,13 +1,13 @@
 export const HEADER_LIST_ITEM = [
   {
-    src: "../assets/icons/position.svg",
+    src: "assets/icons/position.svg",
     alt: "adress",
     text1: "м. Кропоткинская",
     text2: `Соймоновский
     проезд, д.7 с.1`,
   },
   {
-    src: "../assets/icons/clock.svg",
+    src: "assets/icons/clock.svg",
     alt: "work time",
     text1: `Пн - Пт
     11 - 20`,
@@ -15,7 +15,7 @@ export const HEADER_LIST_ITEM = [
     11 - 18`,
   },
   {
-    src: "../assets/icons/phone.svg",
+    src: "assets/icons/phone.svg",
     alt: "adress",
     text1: `+7 800
     000 00 00`,
