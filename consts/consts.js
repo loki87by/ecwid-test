@@ -36,23 +36,23 @@ export const MENU_LIST_ITEM = [
 
 export const SLIDER_ITEM = [
   {
-    src: "./assets/images/yarn.jpg",
+    src: "assets/images/yarn.jpg",
     alt: "Yarn",
   },
   {
-    src: "./assets/images/spokes.jpeg",
+    src: "assets/images/spokes.jpeg",
     alt: "Spokes",
   },
   {
-    src: "./assets/images/hooks.jpg",
+    src: "assets/images/hooks.jpg",
     alt: "Hooks",
   },
   {
-    src: "./assets/images/Accessories.jpg",
+    src: "assets/images/Accessories.jpg",
     alt: "Accessories",
   },
   {
-    src: "./assets/images/toys.jpg",
+    src: "assets/images/toys.jpg",
     alt: "Toys",
   },
 ];
