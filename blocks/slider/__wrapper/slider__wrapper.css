@@ -1,0 +1,14 @@
+.slider__wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  .slider__wrapper {
+    height: calc(100vw / 3);
+  }
+}

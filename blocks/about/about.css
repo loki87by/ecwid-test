@@ -1,0 +1,36 @@
+.about {
+  width: 976px;
+  margin: auto;
+  padding: 8px 0 84px 6px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+@media (max-width: 990px) {
+  .about {
+    width: calc(100% - 12px);
+    padding: 8px 6px 64px;
+  }
+}
+
+@media (max-width: 888px) {
+  .about {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+
+  .about > iframe {
+    margin: auto;
+    margin-top: 10px;
+  }
+}

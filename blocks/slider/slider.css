@@ -1,0 +1,24 @@
+.slider {
+  position: relative;
+  width: 1110px;
+  height: 400px;
+  padding: 35px 45px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+  .slider {
+    width: calc(100% - 90px);
+    height: calc(100vw / 3);
+  }
+}
+
+@media (max-width: 999px) {
+  .slider {
+    padding: 20px 45px;
+  }
+}

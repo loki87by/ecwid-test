@@ -1,0 +1,18 @@
+.advantages {
+  width: 1010px;
+  padding: 39px 0 68px 23px;
+  margin: auto;
+}
+
+@media (max-width: 1044px) {
+  .advantages {
+    width: calc(100% - 20px);
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 999px) {
+  .advantages {
+    padding: 20px 10px;
+  }
+}

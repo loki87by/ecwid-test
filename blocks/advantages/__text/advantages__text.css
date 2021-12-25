@@ -1,0 +1,23 @@
+.advantages__text {
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #497952;
+  text-align: center;
+}
+
+.advantages__item:nth-of-type(3) > .advantages__text,
+.advantages__item:nth-of-type(4) > .advantages__text {
+  margin-bottom: -5px;
+}
+
+@media (max-width: 750px) {
+  .advantages__text {
+    font-size: 10px;
+  }
+}

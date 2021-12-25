@@ -1,0 +1,12 @@
+.about__text {
+  margin: 8px 0 17px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2.2;
+}
+
+@media (max-width: 750px) {
+  .about__text {
+    margin-bottom: 0;
+  }
+}
