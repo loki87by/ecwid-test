@@ -1,5 +1,5 @@
 .about {
-  width: 976px;
+  max-width: 100%;
   margin: auto;
   padding: 8px 0 84px 6px;
   -webkit-box-align: start;
@@ -9,7 +9,6 @@
 
 @media (max-width: 990px) {
   .about {
-    width: calc(100% - 12px);
     padding: 8px 6px 64px;
   }
 }
